@@ -7,7 +7,7 @@ A simple command-line application to arrange files into specific directories nam
 ### Manual
 
 ```bash
-$ git clone https://github.com/MashyBasker/arrange
+$ git clone https://github.com/MashyBasker/arrange.git
 $ cd arrange
 $ python setup.py install
 ```
