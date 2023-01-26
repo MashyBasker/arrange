@@ -69,7 +69,9 @@ def create_dir_mov_files():
         if date_created not in dir_names:
             #creating the directory
             os.mkdir(date_created)
-            #moving file to the freshly created directory
+            #adding the newly created directory into existing 
+            dir_names.append(date_created)
+            #moving file to proper directory
             shutil.move(fname, date_created)
         else:
             #moving file to the proper directory
