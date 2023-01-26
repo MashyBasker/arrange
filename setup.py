@@ -11,11 +11,10 @@ README = (HERE / "README.md").read_text()
 
 setup(
         name='arrange',
-        description="A simple Command-line application for arranging the files
-        into folders whose names are the date of creation of the files",
+        description="""A simple Command-line application for arranging the files
+        into folders whose names are the date of creation of the files""",
         version='1.0.0',
         packages=find_packages(), #list of packages
-        install_requires=install_requires,
         python_requires='>=2.7',
         entry_points="""
                 [console_scripts]
@@ -27,7 +26,6 @@ setup(
         long_description_content_type="text/markdown",
         license='MIT',
         url='https://github.com/MashyBasker/arrange',
-        dependency_links=dependency_links,
         author_email='basumaharshi10@gmail.com',
         classifiers=[
             "License :: OSI Approved :: MIT License",
