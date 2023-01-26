@@ -9,11 +9,11 @@ A simple command-line application to arrange files into specific directories nam
 ```bash
 $ git clone https://github.com/MashyBasker/arrange.git
 $ cd arrange
-$ python setup.py install
+$ sudo python setup.py install
 ```
 
 ## Usage
 
 ```bash
-$ arrange
+$ arrange arrange
 ```
