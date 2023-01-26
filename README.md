@@ -17,3 +17,7 @@ $ sudo python setup.py install
 ```bash
 $ arrange arrange
 ```
+
+## Demo
+
+![Demonstration](demo.png)
