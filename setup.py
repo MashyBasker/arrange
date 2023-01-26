@@ -16,10 +16,10 @@ setup(
         version='1.0.0',
         packages=find_packages(), #list of packages
         python_requires='>=2.7',
-        entry_points="""
-                [console_scripts]
-                arrange=arrange.__main__:main
-        """,
+        entry_points={
+                'console_scripts':['arrange=arrange.__main__:main'
+                ]
+        },
         author="Maharshi Basu",
         keyword="arrange, file-arrange, cli",
         long_description=README,
