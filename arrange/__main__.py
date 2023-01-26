@@ -1,5 +1,5 @@
-import sys 
 import click
+import sys
 from arrange.app import create_dir_mov_files
 
 
@@ -13,8 +13,7 @@ def main():
     pass
 
 @main.command()
-@click.argument('keyword', required=False)
-def arrange(**kwargs):
+def arrange():
     """
     Operation: Arranges files by putting them into a folder based on their
                 creation/last-modified date 
@@ -23,9 +22,8 @@ def arrange(**kwargs):
 
 
 if __name__ == "__main__":
-    args = sys.argv 
+    args = sys.args
     if "--help" in args:
-        print("Arrange")
-        main() 
-    elif len(args) == 1:
-        arrange()
+        print("CVE")
+    main()
+
