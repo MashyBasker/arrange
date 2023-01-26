@@ -10,7 +10,6 @@ def main():
     """
     A file-arranging CLI Application
     """
-    print("Hey friend")
     pass
 
 @main.command()
